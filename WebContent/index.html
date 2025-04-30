@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>Detecção de Fraude</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <h1>Verificar Transação</h1>
+
+    <form id="formFraude">
+        <input type="text" id="id" placeholder="ID da Transação" required />
+        <input type="number" id="valor" placeholder="Valor (R$)" required />
+        <label><input type="checkbox" id="internacional" /> Internacional</label>
+        <button type="submit">Verificar</button>
+    </form>
+
+    <p id="resultado"></p>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
